@@ -18,6 +18,10 @@ public class Main {
         Preorder.preorder(root);
         System.out.println();
 
+        System.out.println("Preorder Traversal using Stack:");
+        IterativePreorder.prerorder(root);
+        System.out.println();
+
         System.out.println("Inorder Traversal:");
         Inorder.inorder(root);
         System.out.println();
